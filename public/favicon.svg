@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="streamGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6c8bef;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b06cef;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="#121212" stroke="url(#streamGradient)" stroke-width="3"/>
+  
+  <!-- Stream lines -->
+  <g fill="url(#streamGradient)" opacity="0.9">
+    <!-- Top stream line -->
+    <rect x="15" y="25" width="70" height="3" rx="1.5"/>
+    <circle cx="20" cy="26.5" r="2"/>
+    <circle cx="30" cy="26.5" r="1.5"/>
+    <circle cx="40" cy="26.5" r="1"/>
+    
+    <!-- Middle stream line -->
+    <rect x="15" y="40" width="70" height="4" rx="2"/>
+    <circle cx="25" cy="42" r="2.5"/>
+    <circle cx="37" cy="42" r="2"/>
+    <circle cx="50" cy="42" r="1.5"/>
+    <circle cx="62" cy="42" r="1"/>
+    
+    <!-- Bottom stream line -->
+    <rect x="15" y="58" width="70" height="3" rx="1.5"/>
+    <circle cx="22" cy="59.5" r="2"/>
+    <circle cx="35" cy="59.5" r="1.5"/>
+    <circle cx="48" cy="59.5" r="1"/>
+    <circle cx="60" cy="59.5" r="0.8"/>
+    
+    <!-- Flow direction arrow -->
+    <path d="M 75 42 L 82 42 L 78 38 M 82 42 L 78 46" stroke="url(#streamGradient)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Central stream symbol -->
+  <circle cx="50" cy="42" r="6" fill="none" stroke="url(#streamGradient)" stroke-width="2"/>
+  <circle cx="50" cy="42" r="2" fill="url(#streamGradient)"/>
+</svg> 
