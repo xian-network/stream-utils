@@ -8,9 +8,6 @@
     <div class="container">
         <div class="navbar-brand">
             <a class="navbar-item" href="#" on:click={() => setPage('streams')}>
-                <span class="icon mr-2">
-                    <i class="fas fa-stream"></i>
-                </span>
                 <strong>Xian Stream Manager</strong>
             </a>
         </div>
