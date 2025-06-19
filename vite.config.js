@@ -4,7 +4,7 @@ import { svelte } from '@sveltejs/vite-plugin-svelte'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [svelte()],
-  base: process.env.NODE_ENV === 'production' ? '/stream-utils/' : '/',
+  base: '/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets'
